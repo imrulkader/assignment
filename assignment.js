@@ -10,14 +10,14 @@ console.log(meter);
 
 // Task-2 # budgetCalculation 
 
-function budgetCalculation(watch, phone, laptop) {
+function budgetCalculator(watch, phone, laptop) {
     var watch = 5 * 50;                                     //  quantity 5 pcs X value $50
     var phone = 3 * 100;
     var laptop = 2 * 500;
     var result = watch + phone + laptop;
     return result;
 }
-var sum = budgetCalculation(250, 300, 1000);               // watch cost 250, phone cost 300, laptop cost 1000 
+var sum = budgetCalculator(250, 300, 1000);               // watch cost 250, phone cost 300, laptop cost 1000 
 console.log(sum);
 
 // Task-3 # hotelCost
